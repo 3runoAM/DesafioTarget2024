@@ -1,6 +1,4 @@
-import java.util.function.Predicate;
-
-public class Main {
+public class Questao01 {
     public static void main(String[] args) {
         System.out.println(isFibonacci(0)); // Pertence a sequência fibonacci
         System.out.println(isFibonacci(1)); // Pertence a sequência fibonacci
