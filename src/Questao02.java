@@ -9,7 +9,7 @@ public class Questao02 {
 
     public static String findLetterAOccurrence(String str) {
         long aCount = Stream.of(str.split(""))
-                .filter(letter -> letter.equalsIgnoreCase("a"))
+                .filter(word -> word.equalsIgnoreCase("a"))
                 .count();
         return "A letra 'a' aparece um total de %d vez(es) ao longo da string".formatted(aCount);
     }
